@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://kit.fontawesome.com/b91f07c834.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <title>Inveelia | Dashboard</title>
+  </head>
+  <body style="font-family: 'Poppins'">
+    <div class="w-screen h-svh flex bg-slate-950">
+      <!-- Sidebar -->
+      <div class="w-2/12 p-4">
+        <img src="img/pos2.svg" class="w-2/3 mx-auto" alt="" />
+        <div class="w-full mt-6">
+          <div class="flex mx-2 mb-4 w-auto bg-slate-900 h-0.5"></div>
+          <a href="" class="flex items-center w-full py-4 px-6 mb-4 bg-slate-900 rounded-xl text-slate-400 hover:text-slate-300 hover:font-semibold transition-all">
+            <i class="fa-solid fa-home fa-lg fa-fw me-6"></i>
+            <p>Dashboard</p>
+          </a>
+
+          <a href="" class="flex items-center w-full py-4 px-6 mb-4 rounded-xl text-slate-300 hover:bg-slate-900 hover:font-semibold transition-all">
+            <i class="fa-solid fa-cart-shopping fa-lg fa-fw me-6"></i>
+            <p>Penjualan Barang</p>
+          </a>
+
+          <a href="" class="flex items-center w-full py-4 px-6 mb-4 rounded-xl text-slate-300 hover:bg-slate-900 hover:font-semibold transition-all">
+            <i class="fa-solid fa-layer-group fa-lg fa-fw me-6"></i>
+            <p>Stok Barang</p>
+          </a>
+
+          <a href="" class="flex items-center w-full py-4 px-6 mb-4 rounded-xl text-slate-300 hover:bg-slate-900 hover:font-semibold transition-all">
+            <i class="fa-solid fa-clipboard-list fa-lg fa-fw me-6"></i>
+            <p>Pesanan</p>
+          </a>
+
+          <a href="" class="flex items-center w-full py-4 px-6 mb-4 rounded-xl text-slate-300 hover:bg-slate-900 hover:font-semibold transition-all">
+            <i class="fa-solid fa-file-lines fa-lg fa-fw me-6"></i>
+            <p>Riwayat Transaksi</p>
+          </a>
+        </div>
+      </div>
+      <!-- Sidebar -->
+
+      <!-- Container -->
+      <div class="w-10/12 bg-slate flex flex-col">
+        <!-- Topbar -->
+        <div class="w-full flex h-16 py-2 px-4 items-center justify-end gap-4">
+          <div class="flex items-center text-slate-300">
+            <i class="fa-solid fa-circle-user fa-lg me-2"></i>
+            <p class="text-lg">Super Admin</p>
+          </div>
+          <a href="" class="flex p-4 py-5 size-min text-white rounded-lg hover:text-slate-300 hover:bg-slate-900">
+            <i class="fa-solid fa-right-from-bracket fa-lg"></i>
+          </a>
+        </div>
+        <!-- Topbar -->
+
+        <!-- Content -->
+        <div class="w-full h-full p-2 flex flex-wrap">
+          <div class="w-8/12 h-1/2 p-2">
+            <div class="flex flex-col size-full bg-slate-900 rounded-2xl p-4">
+              <p class="font-semibold text-lg text-slate-300">Pesanan hari ini</p>
+              <table class="text-sm text-slate-400 mt-4 ">
+                <tr class="bg-slate-800">
+                  <th class="w-3/12 py-2 rounded-s-xl">Nama Pelanggan</th>
+                  <th class="w-4/12 py-2">Pesanan</th>
+                  <th class="w-3/12 py-2">Jam</th>
+                  <th class="w-2/12 py-2 rounded-e-xl">Status</th>
+                </tr>
+                <tr class="text-center">
+                  <td class="p-2">Arunika</td>
+                  <td class="p-2">Fotocopy</td>
+                  <td class="p-2">16:00</td>
+                  <td class="p-2 text-start ps-8 text-yellow-700"><i class="fa-solid fa-circle-check fa-fw me-2"></i>Selesai</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="p-2">Freyanda</td>
+                  <td class="p-2">Cetak Banner</td>
+                  <td class="p-2">16:00</td>
+                  <td class="p-2 text-start ps-8 text-red-700"><i class="fa-solid fa-clock fa-fw me-2"></i>Pending</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="p-2">Rasya</td>
+                  <td class="p-2">Stempel</td>
+                  <td class="p-2">16:00</td>
+                  <td class="p-2 text-start ps-8 text-yellow-700"><i class="fa-solid fa-circle-check fa-fw me-2"></i>Selesai</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="p-2">Ramin</td>
+                  <td class="p-2">Cetak Undangan</td>
+                  <td class="p-2">16:00</td>
+                  <td class="p-2 text-start ps-8 text-yellow-700"><i class="fa-solid fa-circle-check fa-fw me-2"></i>Selesai</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="p-2">Parmin</td>
+                  <td class="p-2">Cetak Banner</td>
+                  <td class="p-2">16:00</td>
+                  <td class="p-2 text-start ps-8 text-blue-700"><i class="fa-solid fa-circle-up fa-fw me-2"></i>Proses</td>
+                </tr>
+              </table>
+              <div class="flex mx-2 mb-4 w-full bg-slate-800 h-0.5"></div>
+              <a href="" class="border border-slate-300 text-slate-300 text-xs rounded-xl w-auto px-12 py-1 mx-auto hover:bg-slate-800 hover:border-slate-800 hover:tracking-widest transition-all">Pesanan Lainnya</a>
+            </div>
+          </div>
+          <div class="w-4/12 h-1/2 p-2">
+            <div class="flex flex-col size-full bg-slate-900 rounded-2xl p-4">
+              <div class="flex items-start justify-between">
+                <p class="font-semibold text-lg text-slate-300">Stok barang</p>
+                <a href="" class="text-sm text-slate-300 px-4 py-1 rounded-xl hover:bg-slate-800">Lainnya<i class="fa-solid fa-caret-right ms-2"></i></a>
+              </div>
+              <table class="text-sm text-slate-400 mt-4">
+                <tr class="bg-slate-800">
+                  <th class="w-6/12 py-2 rounded-s-xl">Nama Barang</th>
+                  <th class="w-4/12 py-2">Harga</th>
+                  <th class="w-2/12 py-2 rounded-e-xl">Stok</th>
+                </tr>
+                <tr class="text-center border-b border-slate-800">
+                  <td class="p-2">Kertas A4</td>
+                  <td class="p-2">IDR 55.000</td>
+                  <td class="p-2">5</td>
+                </tr>
+                <tr class="text-center border-b border-slate-800">
+                  <td class="p-2">Kertas A4</td>
+                  <td class="p-2">IDR 55.000</td>
+                  <td class="p-2">5</td>
+                </tr>
+                <tr class="text-center border-b border-slate-800">
+                  <td class="p-2">Kertas A4</td>
+                  <td class="p-2">IDR 55.000</td>
+                  <td class="p-2">5</td>
+                </tr>
+                <tr class="text-center border-b border-slate-800">
+                  <td class="p-2">Kertas A4</td>
+                  <td class="p-2">IDR 55.000</td>
+                  <td class="p-2">5</td>
+                </tr>
+                <tr class="text-center border-b border-slate-800">
+                  <td class="p-2">Kertas A4</td>
+                  <td class="p-2">IDR 55.000</td>
+                  <td class="p-2">5</td>
+                </tr>
+                <tr class="text-center border-b border-slate-800">
+                  <td class="p-2">Kertas A4</td>
+                  <td class="p-2">IDR 55.000</td>
+                  <td class="p-2">5</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="w-full h-1/2 p-2">
+            <div class="flex flex-col size-full bg-slate-900 rounded-2xl p-4">
+              <p class="font-semibold text-lg text-slate-300">Transaksi terbaru</p>
+              <div class="mt-4 mb-2">
+                <ul class="flex font-medium text-xs text-center items-center bg-slate-800 w-min rounded-2xl p-1.5" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
+                  <li class="" role="presentation">
+                    <button class="w-28 px-4" id="penjualan-tab" data-tabs-target="#penjualan" type="button" role="tab" aria-controls="profile" aria-selected="false">Penjualan</button>
+                  </li>
+                  <li class="" role="presentation">
+                    <button class="w-28 px-4" id="pesanan-tab" data-tabs-target="#pesanan" type="button" role="tab" aria-controls="dashboard" aria-selected="false">Pesanan</button>
+                  </li>
+                </ul>
+              </div>
+              <div id="default-tab-content" class="h-full">
+                <div class="hidden" id="penjualan" role="tabpanel" aria-labelledby="penjualan-tab">
+                  <table class="text-sm text-center text-slate-400 w-full">
+                    <tr class="border-b border-slate-800">
+                      <th class="w-2/12 py-2">INV</th>
+                      <th class="w-3/12">Waktu</th>
+                      <th class="w-1/12">Jumlah Barang</th>
+                      <th class="w-2/12">Total Harga</th>
+                      <th class="w-2/12">Pembayaran</th>
+                      <th class="w-2/12">Status pembayaran</th>
+                    </tr>
+                    <tr class="border-b border-slate-800">
+                      <td class="py-2">#101010</td>
+                      <td >24-Jan-2024</td>
+                      <td >6</td>
+                      <td >IDR 36.000</td>
+                      <td >Tunai</td>
+                      <td class="ps-20 text-start text-blue-700"><i class="fa-solid fa-circle-check fa-fw me-2"></i>Lunas</td>
+                    </tr>
+                    <tr class="border-b border-slate-800">
+                      <td class="py-2">#167810</td>
+                      <td >24-Jan-2024</td>
+                      <td >7</td>
+                      <td >IDR 45.000</td>
+                      <td >Transfer</td>
+                      <td class="ps-20 text-start text-red-700"><i class="fa-solid fa-clock fa-fw me-2"></i>Pending</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="hidden" id="pesanan" role="tabpanel" aria-labelledby="pesanan-tab">
+                  <table class="text-sm text-center text-slate-400 w-full">
+                    <tr class="border-b border-slate-800">
+                      <th class="w-1/12 py-2">INV</th>
+                      <th class="w-2/12">Nama Pelanggan</th>
+                      <th class="w-2/12">Pesanan</th>
+                      <th class="w-2/12">Waktu pengambilan</th>
+                      <th class="w-1/12">Harga</th>
+                      <th class="w-2/12">Pembayaran</th>
+                      <th class="w-2/12">Status pembayaran</th>
+                    </tr>
+                    <tr class="border-b border-slate-800">
+                      <td class="py-2">#895793</td>
+                      <td >Armin</td>
+                      <td >Cetak Foto Caleg</td>
+                      <td >20-May-2024</td>
+                      <td >IDR 5.000.000</td>
+                      <td >Transfer</td>
+                      <td class="ps-20 text-start text-red-700"><i class="fa-solid fa-clock fa-fw me-2"></i>Pending</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <a href="" class="border border-slate-300 text-slate-300 text-xs rounded-xl mx-auto w-auto px-12 py-1 hover:bg-slate-800 hover:border-slate-800 hover:tracking-widest transition-all">Transaksi Lainnya</a>
+            </div>
+          </div>
+        </div>
+        <!-- Content -->
+      </div>
+      <!-- Container -->
+    </div>
+
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>

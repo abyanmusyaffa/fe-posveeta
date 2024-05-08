@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300px" height="71px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 300 70.71"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="772" font-variant="normal" style="fill-rule:nonzero" font-weight="900">
+	<font-face 
+		font-family="Poppins Black">
+		<font-face-src>
+			<font-face-name name="Poppins Black"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="A" horiz-adv-x="772" d="M503.963 106.993l-235.981 0 -34.9987 -106.993 -232.983 0 258.982 707.948 255.982 0 257.981 -707.948 -233.982 0 -34.9987 106.993zm-53.9953 166.988l-63.9964 196.985 -63.9944 -196.985 127.991 0z"/>
+   <glyph unicode="E" horiz-adv-x="555" d="M271.98 530.962l0 -86.993 219.985 0 0 -166.99 -219.985 0 0 -99.9926 249.983 0 0 -176.987 -471.965 0 0 707.948 471.965 0 0 -176.987 -249.983 0z"/>
+   <glyph unicode="I" horiz-adv-x="321" d="M271.98 707.948l0 -707.948 -221.982 0 0 707.948 221.982 0z"/>
+   <glyph unicode="L" horiz-adv-x="505" d="M271.98 167.987l213.986 0 0 -167.987 -435.969 0 0 707.948 221.982 0 0 -539.961z"/>
+   <glyph unicode="N" horiz-adv-x="778" d="M728.948 0l-221.984 0 -234.984 355.974 0 -355.974 -221.982 0 0 707.948 221.982 0 234.984 -361.973 0 361.973 221.984 0 0 -707.948z"/>
+   <glyph unicode="V" horiz-adv-x="762" d="M762.945 707.948l-237.982 -707.948 -286.98 0 -237.982 707.948 235.983 0 145.99 -486.963 144.988 486.963 235.983 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Poppins Black";font-variant:normal;font-weight:900;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#fff}
+    .fil1 {fill:#fff;fill-rule:nonzero}
+    .fnt0 {font-weight:900;font-size:50.53px;font-family:'Poppins Black'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1688354114336">
+   <text x="3.04" y="67"  class="fil0 fnt0">I N V E E L I A</text>
+   <path class="fil1" d="M238.28 8.17c1.46,-2.91 2.91,-4.36 5.82,-4.36 3.21,0 5.82,2.6 5.82,5.82 0,5.82 -5.82,11.64 -11.64,17.46 -5.82,-5.82 -11.64,-11.64 -11.64,-17.46 0,-3.22 2.61,-5.82 5.82,-5.82 2.91,0 4.37,1.45 5.82,4.36z"/>
+  </g>
+ </g>
+</svg>
